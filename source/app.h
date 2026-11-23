@@ -14,7 +14,7 @@
 #define TOP_W 400
 #define BOT_W 320
 #define SCR_H 240
-#define APP_VERSION "0.9"
+#define APP_VERSION "0.9.1"
 #define DATA_DIR "sdmc:/lichess3ds"
 
 // colour: same byte order as C2D_Color32 (usable in constant initialisers)
