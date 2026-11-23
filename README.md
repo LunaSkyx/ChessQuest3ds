@@ -1,5 +1,7 @@
 # Chess Quest 3DS
 
+![Chess Quest 3DS: Lichess, FICS, offline bots, puzzles, chess clock](docs/promo.png)
+
 A chess app for the Nintendo 3DS / 2DS family. Play on **Lichess**, on **FICS**, or completely **offline** against a ladder of bots
 that run on the console itself. Puzzles, learning tools, a game-review function and a chess clock for real boards are built in.
 
