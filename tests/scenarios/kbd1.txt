@@ -1,0 +1,7 @@
+until event home timeout 20000
+cmd goto login
+wait 600
+tap 160 84
+wait 6000
+shot k_after
+quit

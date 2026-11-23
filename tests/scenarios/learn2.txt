@@ -1,0 +1,26 @@
+until event home timeout 20000
+cmd goto learn
+wait 500
+tap 160 130
+wait 500
+tap 160 70
+wait 1500
+cmd pz wrong
+wait 700
+shot o1
+wait 1200
+cmd pz right
+wait 1500
+cmd pz right
+wait 1500
+shot o2
+cmd pz right
+wait 1500
+cmd pz right
+wait 1500
+cmd pz right
+wait 1500
+cmd pz right
+wait 1500
+shot o3
+quit

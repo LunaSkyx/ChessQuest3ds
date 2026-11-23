@@ -1,0 +1,9 @@
+cmd analysispgn e4 e5 Qh5 Nc6 Bc4 Nf6 Qxf7#
+wait 1000
+tap 300 100
+wait 600
+shot r_menu
+tap 120 82
+wait 12000
+shot r_done
+quit

@@ -1,0 +1,15 @@
+until event home timeout 20000
+cmd offline 3 60 0 1
+until loaded timeout 5000
+wait 600
+dragsq e2 e4
+until oppturn timeout 5000
+until myturn timeout 20000
+wait 300
+cmd offer
+wait 500
+shot o_offer
+tap 260 172
+wait 500
+shot o_after
+quit

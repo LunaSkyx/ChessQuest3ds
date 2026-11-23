@@ -1,0 +1,22 @@
+# puzzles: load a batch (read-only GET), make a wrong move, then solve it. Rated mode OFF so nothing is posted to the account.
+until event home timeout 20000
+cmd pzrated 0
+cmd goto puzzle
+until pzstate 3 timeout 25000
+wait 400
+shot p_start
+cmd pz wrong
+wait 300
+shot p_wrong
+until pzstate 3 timeout 5000
+cmd pz right
+until pzstate 3 timeout 5000
+shot p_mid
+cmd pz right
+wait 800
+cmd pz right
+wait 500
+cmd pz right
+wait 1500
+shot p_done
+quit

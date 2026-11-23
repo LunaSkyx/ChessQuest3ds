@@ -1,0 +1,20 @@
+# puzzle menu: daily puzzle (read-only GET), theme picker, hint
+until event home timeout 20000
+cmd pzrated 0
+cmd goto puzzle
+until pzstate 3 timeout 25000
+wait 300
+tap 260 60
+wait 500
+tap 120 134
+until pzstate 3 timeout 15000
+wait 600
+tap 260 24
+wait 400
+shot d_daily
+tap 260 60
+wait 500
+tap 120 168
+wait 500
+shot d_picker
+quit

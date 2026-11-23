@@ -1,0 +1,9 @@
+until event home timeout 20000
+wait 500
+shot m_home
+cmd goto play
+wait 600
+tap 280 52
+wait 400
+shot m_offline
+quit

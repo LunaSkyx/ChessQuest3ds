@@ -1,0 +1,26 @@
+# offline: take-back (2 plies), then run out of time on a 15 s clock
+until event home timeout 20000
+cmd offline 2 15 0 1
+until loaded timeout 5000
+wait 500
+dragsq e2 e4
+wait 150
+until myturn timeout 20000
+wait 300
+dragsq d2 d4
+wait 150
+until myturn timeout 20000
+wait 300
+shot t_before
+cmd menu
+wait 300
+tap 160 108
+wait 600
+shot t_after
+dragsq b1 c3
+wait 150
+until myturn timeout 20000
+until gameover timeout 40000
+wait 1500
+shot t_over
+quit

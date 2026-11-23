@@ -1,0 +1,14 @@
+until online timeout 20000
+until event home timeout 8000
+cmd ai 1 600 0 standard 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 3000
+dragsq e2 e4
+until myturn timeout 30000
+wait 2000
+dragsq g1 f3
+until myturn timeout 30000
+cmd resign
+until gameover timeout 20000
+quit

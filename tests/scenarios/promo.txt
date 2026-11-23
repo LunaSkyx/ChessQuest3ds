@@ -1,0 +1,124 @@
+# promo video run: offline bot games + read-only Lichess screens. Writes MARK lines the recorder uses as cut points.
+until event home timeout 40000
+cmd demoname Player
+wait 3500
+log MARK:ladder
+cmd botmask 2047
+cmd goto bots
+wait 1500
+tap 160 62
+wait 1100
+tap 160 106
+wait 1100
+tap 160 150
+wait 1500
+tap 54 221
+wait 700
+tap 200 221
+until loaded timeout 10000
+until myturn timeout 10000
+wait 3000
+log MARK:premove
+drag 135 195 135 135 320
+wait 150
+drag 195 225 165 165 320
+wait 150
+drag 45 225 75 165 320
+wait 150
+drag 165 225 75 135 320
+wait 9000
+log MARK:premove2
+drag 105 195 105 165 320
+wait 150
+drag 75 225 135 165 320
+wait 150
+drag 15 195 15 165 320
+wait 9000
+cmd resign
+wait 600
+log MARK:clock
+cmd goto clock
+wait 1500
+tap 120 55
+wait 800
+tap 160 221
+wait 1000
+tap 160 98
+wait 900
+key left 90
+wait 1000
+key a 90
+wait 900
+key up 90
+wait 900
+key x 90
+wait 900
+key down 90
+wait 800
+key b 90
+wait 1800
+log MARK:openings
+cmd goto learn
+wait 1200
+tap 160 130
+wait 800
+tap 160 70
+wait 2600
+drag 135 195 135 135 300
+wait 1600
+drag 195 225 165 165 300
+wait 1600
+drag 165 225 75 135 300
+wait 1600
+drag 15 195 15 135 300
+wait 1800
+log MARK:storm
+cmd goto learn
+wait 1200
+tap 160 70
+until pzstate 3 timeout 30000
+wait 900
+cmd pz right
+wait 900
+cmd pz right
+wait 900
+cmd pz right
+wait 900
+cmd pz right
+wait 900
+cmd pz right
+wait 900
+cmd pz right
+wait 900
+cmd pz right
+wait 900
+cmd pz right
+wait 1500
+log MARK:review
+cmd analysispgn e4 e5 Qh5 Nc6 Bc4 Nf6 Qxf7#
+wait 1500
+tap 300 100
+wait 900
+tap 120 82
+wait 700
+log MARK:review_wait
+wait 12000
+log MARK:review_done
+wait 2500
+log MARK:tv
+cmd goto tv
+wait 7500
+log MARK:tourney
+cmd goto tourney
+wait 3800
+tap 160 70
+wait 3800
+log MARK:rating
+cmd goto rating
+wait 4000
+log MARK:more
+cmd goto more
+wait 2500
+log MARK:end
+wait 500
+quit

@@ -1,0 +1,16 @@
+cmd goto history
+wait 600
+tap 238 52
+wait 600
+shot hf_list
+tap 160 100
+wait 700
+shot hf_a0
+tap 300 60
+wait 200
+tap 300 60
+wait 200
+tap 300 60
+wait 1200
+shot hf_a3
+quit

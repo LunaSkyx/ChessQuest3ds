@@ -1,0 +1,67 @@
+until online timeout 20000
+until event home timeout 8000
+cmd ai 1 600 0 chess960 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 900
+shot v_chess960
+cmd resign
+until gameover timeout 20000
+wait 300
+cmd ai 1 600 0 kingOfTheHill 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 900
+shot v_kingOfTheHill
+cmd resign
+until gameover timeout 20000
+wait 300
+cmd ai 1 600 0 threeCheck 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 900
+shot v_threeCheck
+cmd resign
+until gameover timeout 20000
+wait 300
+cmd ai 1 600 0 antichess 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 900
+shot v_antichess
+cmd resign
+until gameover timeout 20000
+wait 300
+cmd ai 1 600 0 atomic 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 900
+shot v_atomic
+cmd resign
+until gameover timeout 20000
+wait 300
+cmd ai 1 600 0 horde 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 900
+shot v_horde
+cmd resign
+until gameover timeout 20000
+wait 300
+cmd ai 1 600 0 racingKings 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 900
+shot v_racingKings
+cmd resign
+until gameover timeout 20000
+wait 300
+cmd ai 1 600 0 crazyhouse 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 900
+shot v_crazyhouse
+cmd resign
+until gameover timeout 20000
+wait 300
+quit

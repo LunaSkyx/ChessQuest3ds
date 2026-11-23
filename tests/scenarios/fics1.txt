@@ -1,0 +1,21 @@
+# FICS: play a game against the scripted guest bot (tools/fics/bot.py posts "seek 13 7 u white")
+cmd ficsraw match BOTNAME TC unrated black
+until event game_start timeout 60000
+until loaded timeout 10000
+wait 600
+shot f_start
+until myturn timeout 20000
+dragsq e7 e5
+wait 300
+dragsq b8 c6
+wait 300
+shot f_premove
+until plies 5 timeout 30000
+until myturn timeout 20000
+wait 500
+shot f_mid
+dragsq g8 f6
+until gameover timeout 40000
+wait 1800
+shot f_over
+quit

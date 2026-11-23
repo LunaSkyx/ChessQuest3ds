@@ -1,0 +1,9 @@
+until event home timeout 20000
+cmd goto learn
+wait 500
+tap 160 70
+until pzstate 3 timeout 25000
+shot st_1
+wait 3000
+shot st_2
+quit
