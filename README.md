@@ -124,4 +124,12 @@ This project stands on the work of many people. Thank you!
 
 ## License
 
-Not chosen yet. The bundled third-party assets keep their own licenses (see Credits). In particular, the CC BY-NC-SA piece sets (cardinal, staunty) are non-commercial and share-alike, and the GPL sets (cburnett, merida) require GPL-compatible distribution of the combined work. Choose a license for the source code with that in mind before the first release.
+The source code and the original assets of this project are under the [MIT License](LICENSE).
+
+Bundled third-party material is **not** relicensed; it keeps its own license (see Credits). Please note for anyone who redistributes builds:
+
+- The piece sets **cardinal** and **staunty** are CC BY-NC-SA 4.0: attribution, non-commercial, share-alike for those files.
+- The piece sets **cburnett** and **merida** are GPLv2+.
+- chessnut (Apache 2.0) and rhosgfx (CC0) have no such restrictions.
+
+If you want a build that is free of these restrictions (for example a commercial or purely MIT one), remove those sets from `assets_src/pieces/`, from `SETS` in `tools/render_pieces.py` and from the piece-set list in the settings, then regenerate the assets. This is not legal advice.
