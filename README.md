@@ -18,7 +18,7 @@ that run on the console itself. Puzzles, learning tools, a game-review function 
 - Drag-and-drop or tap-tap moves, board themes, four piece sets, sounds, left- or right-handed board position.
 
 **Learning and training**
-- Puzzles (Lichess puzzle API, rated or unrated) and **Puzzle Storm** (3 minutes).
+- Puzzles (Lichess puzzle API; rated with a token, unrated without an account) and **Puzzle Storm** (3 minutes). Fetched puzzles are kept on the SD card for offline play.
 - **Opening trainer** (14 main lines) and **endgame training** against the engine (queen, rook, two bishops, bishop + knight, K+P, Lucena).
 - **Game review**: the built-in engine marks blunders, mistakes and inaccuracies in any game; analysis board with opening explorer and cloud evaluation.
 
@@ -47,7 +47,7 @@ Lichess apps use personal API tokens instead of passwords.
 
 The token only lives on your console and is only sent to lichess.org. **Never commit it** (`token.txt` is in `.gitignore`).
 
-Without an account you can still use the bot ladder, endgames, openings, the analysis board and the chess clock, and FICS as a guest.
+Without an account you can still use the bot ladder, endgames, openings, the analysis board, the chess clock, FICS as a guest, and **puzzles and Puzzle Storm** (they load anonymously and are unrated). A token is needed for playing on Lichess, rated puzzles, tournaments, the friends list, rating history and Lichess TV.
 
 ## Building
 

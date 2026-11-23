@@ -1,0 +1,19 @@
+# puzzles WITHOUT a token: they must load anonymously (public endpoint, unrated). Run with token.txt moved away.
+wait 3000
+shot a_boot
+cmd goto puzzle
+until pzstate 3 timeout 25000
+wait 400
+shot a_start
+cmd pz wrong
+wait 300
+until pzstate 3 timeout 5000
+cmd pz right
+wait 800
+shot a_mid
+cmd goto learn
+wait 500
+tap 160 70
+until pzstate 3 timeout 25000
+shot a_storm
+quit
