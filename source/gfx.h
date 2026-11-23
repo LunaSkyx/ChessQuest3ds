@@ -42,7 +42,7 @@ bool gfx_set_piece_set(int set);
 C2D_Image gfx_piece(int size_idx, int color, int type);
 void g_piece(int size_idx, int color, int type, float x, float y, u32 alpha_tint, float scale);
 extern const char *PIECE_SET_NAMES[];
-#define PIECE_SET_COUNT 6
+#define PIECE_SET_COUNT 4
 
 // textured boards
 C2D_Image gfx_board_texture(const char *name);   // "wood" / "walnut" / "marble"

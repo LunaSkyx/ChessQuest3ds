@@ -1,0 +1,20 @@
+until event home timeout 30000
+cmd botmask 0
+cmd goto bots
+wait 800
+tap 200 221
+until loaded timeout 10000
+wait 800
+cmd set pieces 3
+wait 500
+shot pc3
+cmd set pieces 1
+wait 500
+shot pc1
+cmd set pieces 9
+wait 500
+shot pc9
+cmd goto settings
+wait 800
+shot pc_settings
+quit

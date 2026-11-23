@@ -24,7 +24,7 @@ cmd set pieces 4
 wait 300
 shot th_blue
 cmd set board 7
-cmd set pieces 5
+cmd set pieces 3
 cmd set left 0
 wait 300
 shot th_midnight
