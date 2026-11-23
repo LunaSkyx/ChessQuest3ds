@@ -1,0 +1,7 @@
+* text=auto
+*.sh text eol=lf
+*.t3x binary
+*.fnt binary
+*.wav binary
+*.ttf binary
+*.png binary
