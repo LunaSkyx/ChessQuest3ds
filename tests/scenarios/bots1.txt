@@ -1,0 +1,19 @@
+until event home timeout 20000
+cmd botmask 0
+cmd goto bots
+wait 700
+shot b_list
+tap 160 180
+wait 500
+shot b_sel
+# play Pip from a mate-in-one position (white: Qh5xf7#)
+
+wait 1200
+shot b_game
+cmd botfen 0 r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1
+wait 1200
+dragsq h5 f7
+wait 2500
+shot b_win
+tap 120 130
+quit

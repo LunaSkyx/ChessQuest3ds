@@ -1,0 +1,33 @@
+until online timeout 20000
+until event home timeout 8000
+cmd ai 1 600 0 standard 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 600
+dragsq e2 e4
+until myturn timeout 30000
+wait 400
+cmd set board 8
+cmd set pieces 1
+wait 300
+shot th_wood
+cmd set board 9
+cmd set pieces 2
+wait 300
+shot th_walnut
+cmd set board 10
+cmd set pieces 3
+wait 300
+shot th_marble
+cmd set board 2
+cmd set pieces 4
+wait 300
+shot th_blue
+cmd set board 7
+cmd set pieces 5
+cmd set left 0
+wait 300
+shot th_midnight
+cmd resign
+until gameover timeout 20000
+quit

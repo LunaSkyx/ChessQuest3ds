@@ -1,0 +1,21 @@
+# connection loss + rejected move recovery
+until online timeout 20000
+until event home timeout 8000
+cmd ai 1 600 0 standard 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 600
+dragsq e2 e4
+wait 300
+cmd dropstream
+wait 4500
+shot x_after_drop
+cmd sendbad
+wait 3500
+shot x_after_bad
+until myturn timeout 30000
+dragsq g1 f3
+wait 1500
+cmd resign
+until gameover timeout 20000
+quit

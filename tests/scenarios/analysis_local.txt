@@ -1,0 +1,8 @@
+# analysis board on an odd position the cloud does not know: the built-in engine must evaluate it (white to move can win a queen)
+until event home timeout 20000
+cmd analysisfen 3r2k1/5p2/6p1/2b1P3/1p3P2/pP1N4/P1R3PP/6K1 w - - 3 31
+wait 4500
+shot l_a
+wait 200
+wait 4500
+quit

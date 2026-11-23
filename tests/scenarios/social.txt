@@ -1,0 +1,21 @@
+# read-only tour: More hub, rating history, friends, Lichess TV, tournaments (list + detail, no joining)
+until event home timeout 20000
+cmd goto more
+wait 600
+shot s_more
+cmd goto rating
+wait 3500
+shot s_rating
+cmd goto friends
+wait 5000
+shot s_friends
+cmd goto tv
+wait 6000
+shot s_tv
+cmd goto tourney
+wait 3500
+shot s_tlist
+tap 160 70
+wait 3500
+shot s_tdetail
+quit

@@ -1,0 +1,17 @@
+until online timeout 20000
+until event home timeout 8000
+cmd aifen 1 600 0 1 standard 6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 800
+dragsq a1 a8
+until gameover timeout 20000
+wait 1600
+tap 120 132
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 1500
+shot r_second
+cmd resign
+until gameover timeout 20000
+quit

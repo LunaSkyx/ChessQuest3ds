@@ -1,0 +1,19 @@
+until event home timeout 20000
+cmd goto clock
+wait 500
+tap 160 221
+wait 500
+tap 160 98
+wait 1500
+key left
+wait 1200
+key a
+wait 1200
+key up
+wait 800
+key x
+wait 800
+key down
+wait 800
+shot k_keys
+quit

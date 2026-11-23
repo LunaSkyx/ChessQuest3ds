@@ -1,0 +1,4 @@
+cmd goto login
+wait 600
+shot calib
+quit

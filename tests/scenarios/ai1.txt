@@ -1,0 +1,35 @@
+# vs Stockfish level 1 (casual by definition): play a few moves with drag, tap and premove, then resign
+until online timeout 20000
+until event home timeout 8000
+cmd ai 1 600 0 standard 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 1200
+shot g_start
+dragsq e2 e4
+wait 150
+shot g_dragged
+until myturn timeout 30000
+wait 500
+shot g_after1
+tapsq g1
+wait 200
+shot g_selected
+tapsq f3
+until oppturn timeout 5000
+wait 100
+dragsq d2 d4
+wait 100
+shot g_premove
+until myturn timeout 30000
+wait 700
+shot g_after3
+cmd menu
+wait 400
+shot g_menu
+cmd closemenu
+cmd resign
+until gameover timeout 20000
+wait 1500
+shot g_over
+quit

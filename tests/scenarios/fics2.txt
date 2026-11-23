@@ -1,0 +1,30 @@
+# FICS: castling (typed as o-o) and a draw offer that the bot accepts
+cmd ficsraw match BOTNAME TC unrated black
+until event game_start timeout 60000
+until loaded timeout 10000
+wait 600
+until myturn timeout 20000
+dragsq e7 e5
+wait 350
+until myturn timeout 20000
+dragsq b8 c6
+wait 350
+until myturn timeout 20000
+dragsq g8 f6
+wait 350
+until myturn timeout 20000
+dragsq f8 e7
+wait 350
+until myturn timeout 20000
+dragsq e8 g8
+wait 350
+until plies 10 timeout 10000
+wait 500
+shot c_castled
+cmd menu
+wait 400
+tap 120 76
+until gameover timeout 20000
+wait 1500
+shot c_draw
+quit

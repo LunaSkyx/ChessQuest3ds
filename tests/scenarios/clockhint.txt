@@ -1,0 +1,5 @@
+until event home timeout 20000
+cmd goto boot
+cmd neterr 60
+shot ch1
+quit
