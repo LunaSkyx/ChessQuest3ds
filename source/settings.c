@@ -1,4 +1,5 @@
 #include "app.h"
+#include "gfx.h"
 #include <jansson.h>
 
 Settings g_set;
@@ -37,7 +38,7 @@ void settings_load(void) {
         json_t *o = json_loads(txt, 0, &err);
         free(txt);
         if (o) {
-            get_int(o, "board_theme", &g_set.board_theme); get_int(o, "piece_set", &g_set.piece_set);
+            get_int(o, "board_theme", &g_set.board_theme); get_int(o, "piece_set", &g_set.piece_set); if (g_set.piece_set < 0 || g_set.piece_set >= PIECE_SET_COUNT) g_set.piece_set = 0;
             get_bool(o, "sound", &g_set.sound); get_int(o, "volume", &g_set.volume);
             get_bool(o, "coords", &g_set.coords); get_bool(o, "premoves", &g_set.premoves);
             get_bool(o, "animations", &g_set.animations); get_bool(o, "legal_dots", &g_set.legal_dots);

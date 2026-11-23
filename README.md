@@ -13,7 +13,7 @@ that run on the console itself. Puzzles, learning tools, a game-review function 
 - **FICS** (freechess.org): guest login or your own account, seeks, premoves, game history.
 - **Offline bot ladder**: 12 named bots (from *Pip* to *Lady Checkmate*). Beat a bot to unlock the next one. No account, no Wi-Fi. A custom offline game against the built-in engine is available too.
 - **Multi-premove**: queue up to 8 premoves; they are played the moment it is your turn (Lichess, FICS and bots).
-- Drag-and-drop or tap-tap moves, board themes, six piece sets, sounds, left- or right-handed board position.
+- Drag-and-drop or tap-tap moves, board themes, four piece sets, sounds, left- or right-handed board position.
 
 **Learning and training**
 - Puzzles (Lichess puzzle API, rated or unrated) and **Puzzle Storm** (3 minutes).
@@ -106,7 +106,6 @@ This project stands on the work of many people. Thank you!
 | merida | Armando Hernandez Marroquin | GPLv2+ |
 | chessnut | Alexis Luengas | Apache 2.0 |
 | rhosgfx | RhosGFX | CC0 1.0 |
-| cardinal, staunty | sadsnake1 | CC BY-NC-SA 4.0 |
 
 **Fonts and icons** - Noto Sans (Google, as shipped with lila; Apache 2.0). Icon shapes from [Lucide](https://lucide.dev) (ISC license).
 
@@ -124,4 +123,6 @@ This project stands on the work of many people. Thank you!
 
 ## License
 
-Not chosen yet. The bundled third-party assets keep their own licenses (see Credits). In particular, the CC BY-NC-SA piece sets (cardinal, staunty) are non-commercial and share-alike, and the GPL sets (cburnett, merida) require GPL-compatible distribution of the combined work. Choose a license for the source code with that in mind before the first release.
+Chess Quest 3DS is free software, licensed under the **GNU General Public License v3.0 or later** (GPL-3.0-or-later). See [LICENSE](LICENSE). Copyright (c) 2026 LunaSkyx.
+
+Bundled third-party material keeps its own license (see Credits): the piece sets are GPLv2+ (cburnett, merida), Apache 2.0 (chessnut) and CC0 (rhosgfx), the CA bundle is MPL 2.0, the libraries are used under their own permissive licenses. All of these are compatible with GPL-3.0-or-later. Pieces released only under non-commercial terms (such as the lila sets cardinal and staunty) are deliberately not included for that reason.

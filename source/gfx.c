@@ -15,7 +15,7 @@ typedef struct {
 } BFont;
 static BFont g_fonts[F_COUNT];
 static C2D_SpriteSheet g_board_tex[3];
-const char *PIECE_SET_NAMES[PIECE_SET_COUNT] = {"cburnett", "staunty", "cardinal", "chessnut", "merida", "rhosgfx"};
+const char *PIECE_SET_NAMES[PIECE_SET_COUNT] = {"cburnett", "chessnut", "merida", "rhosgfx"};
 static const char *FONT_FILES[F_COUNT] = {"r11", "r13", "r16", "b11", "b13", "b16", "b21", "b34"};
 
 // screenshot state

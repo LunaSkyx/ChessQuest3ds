@@ -3,7 +3,7 @@ import io, sys, os, re
 from PIL import Image
 import resvg_py
 
-SETS = ["cburnett", "staunty", "cardinal", "chessnut", "merida", "rhosgfx"]
+SETS = ["cburnett", "chessnut", "merida", "rhosgfx"]
 ORDER = ["wP", "wN", "wB", "wR", "wQ", "wK", "bP", "bN", "bB", "bR", "bQ", "bK"]
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets_src", "pieces")
 
