@@ -1,0 +1,12 @@
+# update check: runs ~6 s after start, asks GitHub, remembers the newest tag; a newer one shows a hint on Home.
+# The same-version case must show NO hint; "updfake" then pretends a newer release exists.
+cmd goto home
+wait 10000
+shot u_same
+cmd updfake 9.9.9
+wait 600
+shot u_newer
+cmd goto settings
+wait 600
+shot u_settings
+quit

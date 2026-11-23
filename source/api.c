@@ -229,6 +229,9 @@ static void handle(LiMsg *m) {
     case TAG_EXPL:
         analysis_net_explorer(m->req, m->curl_rc, m->http, m->data ? m->data : "");
         break;
+    case TAG_UPD:
+        update_net(m->req, m->curl_rc, m->http, m->data ? m->data : "");
+        break;
     case TAG_PUZ:
         puzzle_net(m->req, m->curl_rc, m->http, m->data ? m->data : "");
         break;

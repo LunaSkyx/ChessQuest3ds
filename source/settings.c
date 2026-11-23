@@ -23,6 +23,7 @@ void settings_defaults(void) {
     g_set.variant = 0;
     g_set.color = 0;
     g_set.fics_guest = true;
+    g_set.check_updates = true;
 }
 
 static void get_int(json_t *o, const char *k, int *dst) { json_t *v = json_object_get(o, k); if (json_is_integer(v)) *dst = (int)json_integer_value(v); }
@@ -46,6 +47,7 @@ void settings_load(void) {
             get_bool(o, "verify_tls", &g_set.verify_tls); get_bool(o, "rated", &g_set.rated);
             get_int(o, "last_tc", &g_set.last_tc); get_int(o, "ai_level", &g_set.ai_level); get_int(o, "off_level", &g_set.off_level); get_int(o, "pz_angle", &g_set.pz_angle); get_int(o, "pz_diff", &g_set.pz_diff); get_bool(o, "pz_rated", &g_set.pz_rated); get_bool(o, "off_noclock", &g_set.off_noclock); { int bb = 0; get_int(o, "bots_beaten", &bb); g_set.bots_beaten = (unsigned)bb; } get_int(o, "clock_min", &g_set.clock_min); get_int(o, "clock_inc", &g_set.clock_inc); get_bool(o, "clock_mode", &g_set.clock_mode); get_bool(o, "clock_swap", &g_set.clock_swap);
             get_int(o, "variant", &g_set.variant); get_int(o, "color", &g_set.color);
+            get_bool(o, "check_updates", &g_set.check_updates); get_int(o, "upd_day", &g_set.upd_day); get_str(o, "upd_latest", g_set.upd_latest, sizeof g_set.upd_latest);
             get_str(o, "token", g_set.token, sizeof g_set.token);
             get_str(o, "friend_name", g_set.friend_name, sizeof g_set.friend_name);
             get_bool(o, "fics_guest", &g_set.fics_guest); get_str(o, "fics_user", g_set.fics_user, sizeof g_set.fics_user); get_str(o, "fics_pass", g_set.fics_pass, sizeof g_set.fics_pass);
@@ -89,6 +91,9 @@ void settings_save(void) {
     json_object_set_new(o, "bots_beaten", json_integer((json_int_t)g_set.bots_beaten));
     json_object_set_new(o, "variant", json_integer(g_set.variant));
     json_object_set_new(o, "color", json_integer(g_set.color));
+    json_object_set_new(o, "check_updates", json_boolean(g_set.check_updates));
+    json_object_set_new(o, "upd_day", json_integer(g_set.upd_day));
+    json_object_set_new(o, "upd_latest", json_string(g_set.upd_latest));
     json_object_set_new(o, "friend_name", json_string(g_set.friend_name));
     json_object_set_new(o, "token", json_string(g_set.token));
     json_object_set_new(o, "fics_guest", json_boolean(g_set.fics_guest));

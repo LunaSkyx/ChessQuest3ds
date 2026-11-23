@@ -3,7 +3,7 @@
 #include "app.h"
 #include "lichess.h"
 
-enum { TAG_ACCOUNT = 1, TAG_EVENTS, TAG_GAME, TAG_SEEK, TAG_AI, TAG_CHAL, TAG_MOVE, TAG_ACTION, TAG_ONGOING, TAG_WARM, TAG_CANCEL, TAG_USER, TAG_HIST, TAG_CLOUD, TAG_PUZ, TAG_EXPL, TAG_SOC, TAG_TV };
+enum { TAG_ACCOUNT = 1, TAG_EVENTS, TAG_GAME, TAG_SEEK, TAG_AI, TAG_CHAL, TAG_MOVE, TAG_ACTION, TAG_ONGOING, TAG_WARM, TAG_CANCEL, TAG_USER, TAG_HIST, TAG_CLOUD, TAG_PUZ, TAG_EXPL, TAG_SOC, TAG_TV, TAG_UPD };
 
 typedef struct {
     char id[16];
@@ -94,3 +94,8 @@ void analysis_net_explorer(int req, int curl_rc, long http, const char *body);  
 void puzzle_net(int req, int curl_rc, long http, const char *body);
 void social_net(int tag, int req, int kind, int curl_rc, long http, const char *data);   // (scene_social.c) friends / rating history / TV / tournaments              // (scene_puzzle.c) puzzle batch / daily / solve answers   // (scene_analysis.c) cloud evaluation answer
 void api_notice(const char *fmt, ...) __attribute__((format(printf, 1, 2)));
+
+// update check (update.c): asks GitHub for the newest release once a day; every failure is silent
+void update_tick(float dt);                                   // call every frame
+void update_net(int req, int curl_rc, long http, const char *body);
+bool update_available(char *ver, size_t n);                   // true + "0.9.2" when a newer release is known

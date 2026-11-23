@@ -159,21 +159,25 @@ static void next_puzzle(void) {
     fetch_more();
 }
 
+// Puzzles are public on Lichess: without a token they load anonymously (unrated). With a token we wait until it was accepted.
+static bool pz_can_fetch(void) { return g_api.net == 2 || !g_set.token[0]; }
+static bool pz_rated_on(void) { return g_set.pz_rated && g_set.token[0]; }       // results are only sent for a signed-in account
+
 static void fetch_more(void) {
-    if (g_req_batch || now_ms() < g_net_retry || g_api.net != 2) return;
+    if (g_req_batch || now_ms() < g_net_retry || !pz_can_fetch()) return;
     char path[160];
     snprintf(path, sizeof path, "/api/puzzle/batch/%s?nb=10&difficulty=%s", ANGLES[g_set.pz_angle & 15], DIFFS[g_set.pz_diff % 5]);
     g_req_batch = li_request(TAG_PUZ, "GET", path, NULL, false);
 }
 
 static void fetch_daily(void) {
-    if (g_req_daily || g_api.net != 2) { if (g_api.net != 2) ui_toast("Needs a connection"); return; }
+    if (g_req_daily || !pz_can_fetch()) { if (!pz_can_fetch()) ui_toast("Needs a connection"); return; }
     g_req_daily = li_request(TAG_PUZ, "GET", "/api/puzzle/daily", NULL, false);
     g_has = false; g_state = S_LOADING; g_wait_t = 0; g_err[0] = 0; g_menu = false;
 }
 
 static void submit_pending(void) {
-    if (g_req_solve || !g_set.pz_rated || !json_array_size(g_pending) || g_api.net != 2) return;
+    if (g_req_solve || !pz_rated_on() || !json_array_size(g_pending) || g_api.net != 2) return;
     json_t *body = json_object(), *sols = json_array();
     size_t i; json_t *v;
     json_array_foreach(g_pending, i, v) {
@@ -192,7 +196,7 @@ static void submit_pending(void) {
 static void report(bool win) {
     if (g_reported || g_daily || !g_has || g_mode != 0) return;
     g_reported = true;
-    if (!g_set.pz_rated) return;
+    if (!pz_rated_on()) return;
     json_t *o = json_object();
     json_object_set_new(o, "id", json_string(P.id)); json_object_set_new(o, "win", json_boolean(win));
     json_array_append_new(g_pending, o);
@@ -487,7 +491,7 @@ static void top_draw(void) {
         if (g_state == S_DONE) g_textf(F_R11, 48, 38, C_TEXT3, AL_LEFT, "#%s  -  rating %d  -  %d plays", P.id, P.rating, P.plays);
         else g_text(F_R11, 48, 38, C_TEXT3, AL_LEFT, "rating hidden until you finish");
     } else g_text(F_B16, 48, 29, C_TEXT, AL_LEFT, "Puzzles");
-    if (g_rating && g_mode == 0) { g_textf(F_B21, 384, 22, C_TEXT, AL_RIGHT, "%d", g_rating); g_text(F_R11, 384, 40, C_TEXT3, AL_RIGHT, g_set.pz_rated ? "your rating" : "unrated mode"); }
+    if (g_rating && g_mode == 0) { g_textf(F_B21, 384, 22, C_TEXT, AL_RIGHT, "%d", g_rating); g_text(F_R11, 384, 40, C_TEXT3, AL_RIGHT, pz_rated_on() ? "your rating" : "unrated mode"); }
 
     // status card
     g_rrect(6, 58, 388, 62, 8, C_PANEL);
@@ -504,6 +508,7 @@ static void top_draw(void) {
         else { line1 = "Puzzle solved!"; col = C_GREEN; }
         if (g_diff_valid) { snprintf(l2, sizeof l2, "Rating %s%d", g_diff >= 0 ? "+" : "", g_diff); line2 = l2; }
         else if (g_daily) line2 = "The daily puzzle is not rated";
+        else if (!g_set.token[0]) line2 = "Sign in to Lichess for rated puzzles";
         else if (!g_set.pz_rated) line2 = "Rated mode is off";
         else if (g_req_solve) line2 = "Updating your rating...";
         else line2 = json_array_size(g_pending) ? "Result will be sent when online" : "";
@@ -613,7 +618,11 @@ static void draw_picker(void) {
         if (ui_button(r, NULL, F_B11, i == g_set.pz_diff ? BS_TILE_SEL : BS_TILE, -1)) { if (g_set.pz_diff != i) changed = true; g_set.pz_diff = i; }
         g_text_fit(F_B11, r.x + r.w / 2, r.y + 12, C_TEXT, AL_CENTER, r.w - 4, DIFF_LABELS[i]);
     }
-    if (ui_button((Rect){10, 204, 150, 26}, g_set.pz_rated ? "Rated: on" : "Rated: off", F_B11, g_set.pz_rated ? BS_TILE_SEL : BS_SECONDARY, -1)) g_set.pz_rated = !g_set.pz_rated;
+    const char *rated_lbl = !g_set.token[0] ? "Rated: needs login" : (g_set.pz_rated ? "Rated: on" : "Rated: off");
+    if (ui_button((Rect){10, 204, 150, 26}, rated_lbl, F_B11, pz_rated_on() ? BS_TILE_SEL : BS_SECONDARY, -1)) {
+        if (g_set.token[0]) g_set.pz_rated = !g_set.pz_rated;
+        else ui_toast("Sign in to Lichess for rated puzzles");
+    }
     if (ui_button((Rect){170, 204, 140, 26}, "Done", F_B13, BS_PRIMARY, ICON_CHECK)) {
         g_picker = false; settings_save();
         if (changed) { while (json_array_size(g_q)) json_array_remove(g_q, 0); next_puzzle(); }

@@ -4,6 +4,7 @@
 
 #define HOST "https://lichess.org"
 #define EXPLORER_HOST "https://explorer.lichess.ovh"
+#define GITHUB_API "https://api.github.com"
 #define MAX_BODY (1 << 20)
 #define STREAM_IDLE_MS 45000
 
@@ -93,11 +94,12 @@ static size_t write_cb(char *p, size_t sz, size_t nm, void *ud) {
 static void start_req(Req *r) {
     r->easy = curl_easy_init();
     char url[1500];
-    if (!strncmp(r->path, EXPLORER_HOST "/", sizeof EXPLORER_HOST)) snprintf(url, sizeof url, "%s", r->path);   // the official opening explorer (same token)
+    bool github = !strncmp(r->path, GITHUB_API "/", sizeof GITHUB_API);          // update check: never send the Lichess token there
+    if (github || !strncmp(r->path, EXPLORER_HOST "/", sizeof EXPLORER_HOST)) snprintf(url, sizeof url, "%s", r->path);   // explorer: official opening explorer (same token)
     else snprintf(url, sizeof url, HOST "%s", r->path);
     char auth[200];
     LightLock_Lock(&g_lock); snprintf(auth, sizeof auth, "Authorization: Bearer %s", g_token); LightLock_Unlock(&g_lock);
-    if (g_token[0]) r->hdr = curl_slist_append(r->hdr, auth);
+    if (g_token[0] && !github) r->hdr = curl_slist_append(r->hdr, auth);
     r->hdr = curl_slist_append(r->hdr, r->stream ? "Accept: application/x-ndjson" : "Accept: application/json");
     CURL *c = r->easy;
     curl_easy_setopt(c, CURLOPT_URL, url);

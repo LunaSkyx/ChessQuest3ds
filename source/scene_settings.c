@@ -40,7 +40,7 @@ static void about_overlay(void) {
     g_text(F_B16, 160, 26, C_TEXT, AL_CENTER, "About");
     static const char *L[] = {
         "Chess Quest 3DS v" APP_VERSION, "Unofficial client for lichess.org and", "FICS (not affiliated with either).", "",
-        "Chess pieces: free sets from lila", "(Cburnett GPLv2+, Merida, Cardinal ...).",
+        "Chess pieces: free sets from lila", "(Cburnett, Merida, Chessnut, RhosGFX).",
         "Icons: Lucide (ISC). Lichess is free", "and open source software (AGPLv3).", "",
         "Your API token is only stored on this", "console and only sent to Lichess servers."};
     for (int i = 0; i < (int)(sizeof L / sizeof L[0]); i++) g_text(F_R13, 160, 48 + i * 15.0f, C_TEXT2, AL_CENTER, L[i]);
@@ -64,6 +64,7 @@ static void set_bot(void) {
         {"Ignore draw offers", R_TOGGLE, &g_set.hide_draw, NULL},
         {"Board on left", R_TOGGLE, &g_set.board_left, NULL},
         {"Verify TLS", R_TOGGLE, &g_set.verify_tls, NULL},
+        {"Check for updates", R_TOGGLE, &g_set.check_updates, NULL},
         {"About", R_BUTTON, NULL, NULL},
     };
     const int n = (int)(sizeof rows / sizeof rows[0]);
