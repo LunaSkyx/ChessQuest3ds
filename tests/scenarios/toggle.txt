@@ -1,0 +1,4 @@
+cmd goto settings
+wait 500
+shot tg
+quit

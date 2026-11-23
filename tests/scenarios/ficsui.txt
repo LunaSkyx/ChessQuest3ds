@@ -1,0 +1,11 @@
+until online timeout 20000
+cmd goto play
+wait 500
+shot p_quick
+tap 270 52
+wait 400
+shot p_fics
+tap 60 191
+wait 400
+shot p_ficsacct
+quit

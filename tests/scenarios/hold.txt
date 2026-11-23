@@ -1,0 +1,21 @@
+# keep holding a piece while the opponent moves
+until online timeout 20000
+until event home timeout 8000
+cmd ai 1 600 0 standard 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 600
+dragsq e2 e4
+wait 300
+down 195 225
+moveto 185 200 100
+until plies 2 timeout 30000
+wait 300
+shot h_holding
+moveto 165 165 150
+up
+wait 600
+shot h_done
+cmd resign
+until gameover timeout 20000
+quit

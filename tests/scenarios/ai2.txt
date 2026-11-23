@@ -1,0 +1,55 @@
+# scripted positions vs Stockfish level 1: castling, promotion (picker), 2-deep premove queue
+until online timeout 20000
+until event home timeout 8000
+# --- game 1: castle king side
+cmd aifen 1 600 0 1 standard r3k2r/8/8/8/8/8/8/R3K2R w KQkq - 0 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 800
+tapsq e1
+wait 200
+shot c_sel
+dragsq e1 g1
+wait 300
+shot c_done
+until myturn timeout 30000
+wait 400
+shot c_after
+cmd resign
+until gameover timeout 20000
+wait 500
+# --- game 2: promotion with the picker (white pawn a7)
+cmd aifen 1 600 0 1 standard 8/P6k/8/8/8/8/6K1/8 w - - 0 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 800
+dragsq a7 a8
+wait 400
+shot p_picker
+tap 200 128
+wait 600
+shot p_done
+cmd resign
+until gameover timeout 20000
+wait 500
+# --- game 3: two premoves queued behind the opponent's reply
+cmd ai 1 600 0 standard 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 600
+dragsq e2 e4
+wait 100
+dragsq g1 f3
+wait 100
+dragsq b1 c3
+wait 200
+shot m_two
+until plies 4 timeout 30000
+wait 800
+shot m_one_left
+until plies 6 timeout 30000
+wait 800
+shot m_none_left
+cmd resign
+until gameover timeout 20000
+quit

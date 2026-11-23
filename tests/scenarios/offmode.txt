@@ -1,0 +1,22 @@
+until event home timeout 20000
+cmd neterr 0
+cmd goto home
+wait 600
+shot of_home
+cmd goto login
+wait 600
+shot of_login
+tap 90 170
+wait 600
+shot of_g1
+tap 240 118
+wait 300
+tap 240 118
+wait 300
+shot of_g3
+tap 240 118
+wait 300
+tap 240 118
+wait 400
+shot of_g5
+quit

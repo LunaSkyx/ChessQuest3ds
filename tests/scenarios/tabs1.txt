@@ -1,0 +1,14 @@
+until event home timeout 20000
+cmd goto play
+wait 600
+shot t_play
+tap 69 52
+wait 700
+shot t_bots
+tap 255 18
+wait 700
+shot t_custom
+tap 80 222
+wait 500
+shot t_custom2
+quit

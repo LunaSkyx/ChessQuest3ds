@@ -1,0 +1,60 @@
+racingKings|-|Kg3 Ka3 Kf4 Kb4 Ke5 Ka5 Kf6 Ka6 Rg8 Qa5 Kg7 Rb8 Nxc2 Qh5 Qxh5 Kb7 Qa5 Nc4 Kh8#|1r4RK/1k6/8/Q7/2n5/8/2N1NB2/1rbn1BR1 b - - 4 1
+racingKings|-|Kg3 Nxf2 Rxf2 Ka3 Kf4 Rb6 Kg5 Bb2 Qh6 Kb4 Nf4 Nxf1 Rxc2 Rxe1 Qg6 Re7 Kh6 Kb5 Ne6 Ka6 Qg7 Ka7 Qg8 Rb8 Nc7 Rxc7 Qd5 Rcb7 Rxb2 Ka8#|kr6/1r6/7K/3Q4/8/8/1R6/q4nR1 w - - 1 1
+racingKings|-|Nxc2 Rxc2 Rg8 Nxf2 Qg2 Nde4 Rf8 Kb3 Qxf2 Nxf2 Kg3 Kc4 Kh4 Qe5 Rg5 Qd6 Kh5 Bxg5 Kxg5 Qxf8 Kg6 Kd5 Kh7 Ke6|5q2/7K/4k3/8/8/8/2r1Nn2/1r3B2 w - - 4 1
+racingKings|-|Nxc2 Nxf2 Rxf2 Rxc2 Qf3 Rb3 Qd5 Ka3 Nxc1 Qxc1 Rxd2 Rcc3 Rc2 Ka4 Rxc1 Rxc1 Be2 Rxg1 Kxg1 Rb4 Kf2 Rd4 Qf5 Kb4 Ke3 Rh4 Qd5 Ka4 Bd3 Kb4 Be4 Rh8 Kd4 Rc8 Ke5 Rc5 Kd6 Ka5 Kd7 Kb6 Kd8#|3K4/8/1k6/2rQ4/4B3/8/8/8 b - - 22 1
+racingKings|-|Nxc2 Nxf2 Rxf2 Rxc2 Qf3 Rb3 Qd5 Ka3 Nxc1 Qxc1 Rxd2 Rc5 Qd4 Rb4 Qd7 Kb3 Rd4 Rxd4 Qxd4 Ra5 Kg3 Ra4 Kh4 Rb4 Qg4 Ka4 Kh5 Ka5 Qg6 Qc7 Kh6 Rb6 Qf6 Rd6 Qxd6 Qb6 Kg7|8/6K1/1q1Q4/k7/8/8/8/5BR1 b - - 2 1
+racingKings|-|Bd4 Kb3 Kg3 Kc4 Kf4 Kd5 Qh6 Qa4 Rg8 Rb6 Qf6 Bh7 Rh8 Re6 Rg7 Qd7 Kg5 Kd6 Kh6 Be4 Bg2 Kc7 Ba7 Bb2 Qxe6 Be5 Bxe4 Nxe4 Rf8 Qf7 Nd4 Bxd4 Qxe4 Bxa7 Qxb1 Bc5 Kh7 Bxf8 Kh8 Kd8|3k1b1K/5qR1/8/8/8/8/8/1Q1nN3 w - - 2 1
+racingKings|-|Kh3 Kb3 Kh4 Kc4 Kh5 Kd5 Kh6 Rb8 Bb6 Kc6 Bc7 Kb7 Bxb8 Kc8#|1Bk5/8/7K/8/8/8/2bnN1R1/qrbnNBRQ w - - 1 1
+racingKings|-|Nxc2 Nxf2 Rxf2 Rxc2 Qf3 Rb3 Qd5 Ka3 Nxc1 Qxc1 Rxd2 Rc5 Qd4 Qb2 Rxb2 Rbc3 Rd2 Ra5 Rg3 Ra4 Kh3 Ra5 Kg4 Rf3 Kxf3 Ra4 Rg7 Kb3 Kf4 Ra5 Qe5|8/6R1/8/r3Q3/5K2/1k6/3R4/5B2 b - - 6 1
+racingKings|-|Nxc2 Rxc2 Bd4 Bb2 Bxb2 Kxb2 Kg3 Kb3 Kf4 Rc5 Rg6 Nf2 Qh6 Kc4 R1g5 Nde4 Rf5 Rxf1 Ke3 Rxf5 Ng3 Nxg3|8/8/6RQ/5r2/2k5/4K1n1/5n2/q4r2 w - - 0 1
+racingKings|-|Kh3 Kb3 Kh4 Kc4 Kh5 Kd5 Kh6 Rb8 Bb6 Kc6 Bd8 Kb7 Kg5 Rxd8 Qh8 Ka8#|k2r3Q/8/8/6K1/8/8/2bnN1R1/qrbnNBR1 w - - 2 1
+racingKings|-|Nxc2 Nxf2 Rxf2 Rxc2 Qf3 Rb3 Qd5 Ka3 Nxc1 Rb4 Qg2 Ka4 Rxd2 Ka5 Rxc2 Kb6 Qg7 Qxg7 Rxg7|8/6R1/1k6/8/1r6/8/2R4K/2N2B2 b - - 0 1
+racingKings|-|Nxc2 Nxf2 Rxf2 Rxc2 Qf3 Rc7 Rg4 Rb6 Qg3 Ra7 Qe3 Rb8 Qg3 Rd8 Bg2 Bb2 Kh3 Nb3 Qd3 Rb8 Qd6 Rb5 Kh4 Qe1 Kg3 Rc5 Rg5 Rca5 Qf8 Ra4 Rg4 Bd4 Kf4 R4a5 Kg3 Bc5 Bf3 Bxf8 Rf4 Ka3 Kh4 Bd6 Rg4 Be5 Kh5 Nd4 Kg6 Nxf3 Rh2 Qxe2 Rh7 Ra8 Kf7 Rb5 Rg8 Rbb8 Rf8 Qg2 Rg7|rr3R2/5KR1/8/4b3/8/k4n2/6q1/8 b - - 9 1
+racingKings|-|Kh3 Kb3 Kh4 Kc4 Kg5 Qa6 Qh6 Be4 Qf6 Nxf2 Kh6 Rb7 Rg7 Rc7 Kh5 Qxf6 R1g6 Qxg7 Rxg7 Rxg7 Kh6 Rc7 Nc2 Kd5 Na3 Kc6 Nc4 Kb7|8/1kr5/7K/8/2N1b3/8/3nNn2/1rb2B2 w - - 8 1
+racingKings|-|Bd4 Kb3 Nxc2 Kc4 Rg8 Qa3 R1g3 Qd6 Kh3 Rxc2 Qe4 Nxe4 R3g6 Kd5 Bg2 Rxe2 Kh4 Kxd4 Kh5 Rb7 R8g7 Rxg7 Rxg7 Kd5 Rg6 Kc6 Rg7 Qc7 Rg8 Kb7|6R1/1kq5/8/7K/4n3/8/4r1B1/2bn4 w - - 7 1
+racingKings|-|Nxc2 Kb3 Kh3 Nxf1 Rg8 Rxc2 Kg4 Qa5 Rxf1 Rxe2 Qe4 Rc2 Qf5 Qb5 Rxd1 Rc6 Rd4 Rb2 Rg6 Kc3 Kh5 Qd3 Rdg4 Qf3 Bg1 Rg2 Bb6 Rxg4 Qxg4 Qf7 Bd8 Qe8 Bh4 Kd3 Bg5 Rxg6 Qc8 Qxc8 Kxg6 Bxg5|2q5/8/6K1/6b1/8/3k4/8/8 w - - 0 1
+racingKings|-|Nxc2 Rxc2 Bd4 Bb2 Bxb2 Kxb2 Kg3 Kb3 Kh4 Rc5 Nf4 Nxf1 Rg5 Kc4 Kh5 Rb6 Nd3 Nf2 Nxc5 Nxh1 Nd7 Qd4 Nf8 Qxg1 Rxg1 Kb5 Nd7 Rd6 Nb8 Kb6 Rg7 Ne3 Kg5 Nd5 Kf5 Nc7 Nc6 Rxc6 Rg8 Kb7 Ke5 Na6 Kd5 Nb8 Rg1 Ka8#|kn6/8/2r5/3K4/8/8/8/6Rn w - - 8 1
+racingKings|-|Rg4 Nxf2 Qc6 Nde4 Nxc2 Rxc2 Qd7 Kb3 Nf4 Kb4 Rg5 Rc5 Rxc5 Kxc5 Bd3 Qa7 Qe6 Rb6 Bxe4 Rxe6 Kg3 Kd6 Kh4 Kc7 Rg8 Qb8 Kg5 Qc8 Bg6 Kb8#|1kq3R1/8/4r1B1/6K1/5N2/8/5n2/2b5 w - - 10 1
+racingKings|-|Kg3 Kb3 Kf4 Kc4 Ke5 Qa6 Bd4 Be4 Bxb2 Rxb2 Nd3 Bxd3 Nd4 Bxf1 Rg6 Qa7 Rd6 Kc5 Rg7 Qc7 Rd7 Qxd7 Rxd7 Rb6 Nf5 Nf2 Qa8 Nde4 Nd6 Bc4 Nxc4 Kxc4 Rd5 Be3 Qd8 Rc6 Qd7 Bg5 Qe6 Bh4 Kf5 Ng4 Kg6 Rc7 Qd7 Ng5 Kg7 Rc8 Qd8 Nf6 Kh8#|2rQ3K/8/5n2/3R2n1/2k4b/8/8/8 b - - 19 1
+racingKings|-|Kg3 Nxf2 Rxf2 Ka3 Nxc1 Kb4 Rf5 Bxf5 Kf4 Kc5 Kxf5 Kd6 Rg7 Rb8 Kg6 Qe5 Kh7 Qe7 Qh3 Kc7 Ncd3|1r6/2k1q1RK/8/8/8/3N3Q/3n4/1r2NB2 b - - 10 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Kf4 Kc4 Ke5 Kb5 Kd6 Ka6 Kc7 Rb8 Rg8 Qa2 Rxb8 Rxb8 Kxb8#|1K6/8/k7/8/3Bb3/8/q2nN3/2bnNBRQ b - - 0 1
+racingKings|-|Nxc2 Rxc2 Kg3 Nxf2 Rxf2 Rc5 Kg4 Kb3 Rf5 Kc4 Kg5 Rb6 Kh5 Kb5 Rg6 Nb3 Qf3 Ka6 Rxc5 Nxc5 Qf7 Nb7 Qe8 Ka7 Rxb6 Qg7 Rc6 Qd7 Rc8 Nd6 Rb8 Nxe8 Rxe8 Kb7 Kg6 Qc8|2q1R3/1k6/6K1/8/8/8/4N3/2b2B2 w - - 3 1
+racingKings|-|Nxc2 Rxc2 Bh4 Rb6 Rg3 Nf2 Qg2 Nde4 Rf3 Rc3 Bxf2 Nxf2 Qxf2 Rb4 Rg6 Rcb3 Kg3 Ka3 Nxc1 Qxc1 Rg4 Qh6 Be2 Ka4 Bd1 Kb5 Bxb3 Kc6 Rxb4 Kc7 Rf8 Qh5|5R2/2k5/8/7q/1R6/1B4K1/5Q2/8 w - - 3 1
+racingKings|-|Bd4 Kb3 Nxc2 Kc4 Rg6 Qa3 Bg2 Rxc2 Rxd1 Qd3 Rd6 Ba3 Rxb1 Nxb1 Qxb1 Rxe2 Qa1 Qxd4 Qxa3 Qc3 Qa7 Ra2 Qb7 Kc5 Rh6 Rd2 Qa6 Qb4 Qg6 Rd6 Qg7 Kb6 Kh3 Qc5 Bh1 Qc7 Qg8 Qe7 Kg4 Rxh6 Kf5 Rc6|6Q1/4q3/1kr5/5K2/8/8/8/7B w - - 2 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Kf4 Kc4 Qh6 Qa8 Rg8 Rb8 Kg5 R1b7 Bg2 Bxg2 Nxg2 Kb5 Nxc1 Qa6 Rxd1 Qc6 Rxd2 Ka6 Qf6 Rb6 Qxc6 Rxc6 Rxb8 Rd6 Rdb2 Rc6 Nf4 Rd6 Ng6 Rxd4 Kf6 Rd7 Ne7 Ka7 Kf7 Rb7 Rd8|3R4/kr2NK2/8/8/8/8/1R6/2N5 b - - 7 1
+racingKings|-|Kg3 Nxf2 Rxf2 Ka3 Nxc1 Rb6 Rxd2 Rxc1 Kf4 Kb4 Kg5 Kc5 Qh6 Rxh6 Kxh6 Rxe1 Rg8 Rxf1 Rdg2 Kc6 R2g7 Qd4 Re8 Rg1 Rxg1 Qxg1 Rf8 Kd7 Ra8 Kc7 Rf8 Bf5 Rh8 Bc8|2b4R/2k5/7K/8/8/8/8/6q1 w - - 8 1
+racingKings|-|Bd4 Ka3 Kg3 Be4 Kf4 Bxg2 Bxg2 Qa2 Ke5 Rb7 Bxb7 Rxb7 Qxb7 Ka4 Kd6 Ka5 Kc7 Qd5 Kc8#|2K5/1Q6/8/k2q4/3B4/8/3nN3/2bnN1R1 b - - 6 1
+racingKings|-|Bd4 Ne4 Nxc2 Rxc2 Rg8 Ndf2 Bxa1 Nxh1 Kh3 Kb3 Kg4 Kc4 Kf5 Rb7 R1g7 Rxg7 Rxg7 Kd5 Kg6 Kd6 Kh7 Rc8 Bh3 Re8 Bf6 Bb2 Rg8 Bxf6 Rxe8 Kc7 Kg8#|4R1K1/2k5/5b2/8/4n3/7B/4N3/7n b - - 2 1
+racingKings|-|Bd4 Kb3 Kg3 Kc4 Rh2 Qa6 Nxc2 Kb5 Kf4 Rxc2 Rg7 Bb2 Ke5 Ne3 Rh6 Rc7 Rxc7 Rc1 Rxc1 Qb6 Rc7 Nd5 Rd7 Nxf1 Rhd6 Nh2 Ke6 Qb8 Kxd5 Ba3 Ke6 Bxd6 Rxd6 Ng4 Qh7 Ne5 Ke7 Nd7 Kxd7 Qf8 Qf7|5q2/3K1Q2/3R4/1k6/3B4/8/4N3/8 b - - 2 1
+racingKings|-|Kg3 Kb3 Kf4 Kc4 Ke5 Qa6 Rg6 Bxg6 Qh6 Be8 Qd6 Ne4 Qxd1 Rb8 Rg4 R1b7 Bg2 Kb5 Bxe4 Bc6 Ke6 Qb6 Qd6 Qxf2 Nd3 Kb6 Rg7 Ka7 Qe7 Ka8#|kr6/1r2Q1R1/2b1K3/8/4B3/3N4/4Nq2/2b5 w - - 6 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Kf4 Kc4 Qh6 Qa6 Rg6 Bxg6 Rxg6 Qxg6 Qxg6 Kd5 Bh3 Rb8 Nf3 Ba3 Nxd2 R1b7 Nc4 Bc5 Bxc5 Kxc5 Qe6 Re7 Ke5 Reb7 Kf6 Nf2 Bf5 Kb5 Nf4 Nd1 Nh5 Nc3 Be4 Rc7 Nf4 Na4 Ng6 Nb6 Qf7 Rcc8 Kg7 Ka6 Nf8|1rr2N2/5QK1/kn6/8/2N1B3/8/8/8 b - - 23 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Kf4 Kc4 Ke5 Qa6 Qh8 Rb7 Qe8 Nb3 Rg6 Bxg6 Rxg6 Qxg6 Qxg6 Nxd4 Kf6 Kd5 Nxd4 Kd6 Qf7 Re7 Kg7 Rb8 Ne6 Kd7 Ba6 Re8|4r3/3krQK1/B3N3/8/8/8/8/2bnN3 w - - 9 1
+racingKings|-|Bd4 Ka3 Kg3 Be4 Kf4 Bxg2 Bxg2 Nf2 Ke5 Nxh1 Kf6 Rb7 Bxb7 Qb2 Ke7 Qxd4 Ke8#|4K3/1B6/8/8/3q4/k7/3nN3/1rb1N1Rn b - - 1 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Kf4 Kc4 Qh6 Qa6 Rg6 Bxg6 Rxg6 Qxg6 Qxg6 Kd5 Bxb2 Bxb2 Bh3 Bh8 Kg5 Rb7 Nf3 Nc4 Ned4 Nd6 Qf6 Kc5 Qd8 Rc7 Ne5 Kb6 Bg2 Ka7 Qxh8 Rc8 Qxc8 Nxc8 Nd7 Nb6 Kf6 Ne3 Bh1 Nec4 Ne6 Na5 Nec5 Nac4 Kf7 Nxd7|8/k2n1K2/8/2N5/2n5/8/8/7B w - - 0 1
+racingKings|-|Kg3 Kb3 Nxc2 Rxc2 Kf4 Qa5 Bd4 Bb2 Bxb2 Rbxb2 Rg6 Nxf1 Rxf1 Rxe2 Rxd1 Kc4 Rdd6 Rb5 Qh3 Qc7 Qf5 Rd2 Qf8 Rxd6 Rxd6 Rd5 Qf7 Kc5|8/2q2Q2/3R4/2kr4/5K2/8/8/8 w - - 3 1
+racingKings|-|Nxc2 Nxf2 Rxf2 Rxc2 Kg3 Rc5 Rf4 Kb3 Kh4 Nxf1 Rfxf1 Be3 Rg4 Rxf1 Ng3 Rd1 Qe4 Rd4 Qf5 Kc4 Kh5 Rxg4|8/8/8/2r2Q1K/2k3r1/4b1N1/8/q7 w - - 0 1
+racingKings|-|Bd4 Bf5 Kg3 Nb3 Bxb2 Kxb2 Rh2 Qa5 Rh5 Be3 Qf3 Bxg1 Rxf5 Qb6 Nxg1 Nd2 Kh4 Ne3 Qg3 Kb3 Bd3 Ra1 Re5 Kb4 Kg5 Ndc4 Bxc4 Nxc4 Rf5 Ra5 Qh4 Rc5 Qh8 Kb5 Qf6 Ka6 Rxc5 Kb7 Qf8 Ka6 Rxc4 Ka7 Rf4 Qb8 Qd6 Ka8#|kq6/8/3Q4/6K1/5R2/8/8/4N1N1 w - - 5 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Kf4 Kc4 Qh6 Qa6 Rg6 Bxg6 Rxg6 Qxg6 Qxg6 Kd5 Bh3 Rb7 Nf3 Ne3 Kg5 Ba3 Kh6 Bd6 Qe8 Rf7 Bg7 Rb8 Qxb8 Rb7 Qa8 Kc6 Kh7 Kc7 Kg8#|Q5K1/1rk3B1/3b4/8/8/4nN1B/3nN3/8 b - - 6 1
+racingKings|-|Bd4 Kb3 Nxc2 Kc4 Nxa1 Kd5 Kg3 Kc6 Qh7 Rb7 Kh4 Rd7 Rg8 Kc7 Ba7 Nxf1 Qxb1 Rd8 Qf5 Be3 R1g4 Bxa7 Rb4 Rxg8|6r1/b1k5/8/5Q2/1R5K/8/4N3/N2n1n2 w - - 0 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Kf4 Kc4 Qh6 Qa6 Rg8 Rb8 R1g7 Qc6 Bh3 Bd5 Rxb8 Rxb8 Bd7 Kb5 Kf5 Bb2 Bxb2 Nxb2 Nf4 Kb6 Bxc6 Bxc6 Qe6 Ndc4 Kg6 Na5 Qg8 Bd7 Rxd7|1r4Q1/3R4/1k4K1/n7/5N2/8/1n6/4N3 b - - 0 1
+racingKings|-|Bd4 Kb3 Nxc2 Kc4 Rg8 Qa3 R1g3 Qd6 Kh3 Rxc2 Kg4 Rb5 Rg6 Qb8 Bg2 Ne4 Bxe4 Rxe2 Qxd1 Rd5 Bf3 Re8 Qg1 Bf4 Rh3 Rxd4 Kf5 Kc5 Re6 Rxe6 Kxe6 Kb6 Rh7 Qc7 Re7 Ka7 Qg8 Bg5 Kf7 Bxe7 Kg7 Rd8 Kh8 Kb8|1k1r2QK/2q1b3/8/8/8/5B2/8/8 w - - 4 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Kf4 Kc4 Qh6 Qa6 Qf6 Rb8 Rg7 Qc6 Bh3 Kd5 Nxc1 Nc4 Ba7 Re8 Ned3 Rb7 Kg5 Nc3 Bf5 Nb5 Kg6 Qe6 Rxb7 Kc6 Nc5 Nc7 Kg7 Na6 Qf8 Rxf8 Kxf8#|5K2/BR6/n1k1q3/2N2B2/2n1b3/8/8/2N3R1 b - - 0 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Nc3 Nxc3 Kf4 Qa5 Qh8 Bxg2 Rxg2 Ka3 Nf3 Rb8 Qe5 Qc5 Nxd2 Kb4 Rg6 Ra1 Bd3 Rd8 Qc7 Raa8 Rg5 Qe7 Rg7 Qc5 Rg5 Qe7 Bf1 Ne4 Rg7 Qc5 Kxe4 Bxd2 Qe7 Ka5 Bxc5 Bb4 Ke3 Rab8 Qe6 Rb5 Bxb5|3r4/6R1/4Q3/kBB5/1b6/4K3/8/8 b - - 0 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Kf4 Kc4 Qh6 Qa6 Rg6 Bxg6 Rxg6 Qxg6 Qxg6 Kd5 Bxb2 Bxb2 Kg5 Bh8 Nf3 Nc4 Qxb1 Kc6 Qh7 Nb6 Nf4 Nd7 Ba6 Be5 Ne6 Kb6 Qxd7 Bc7 Kf6 Ka7 Qc8 Bb8 Bb7|1bQ5/kB6/4NK2/8/8/5N2/8/3n4 b - - 6 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Nc3 Nxc3 Kf4 Kb4 Ke5 Qa8 Kf6 Nxf1 Kg7 Kc4 Qh8 Rb8 Rh1 Bxg2 Bc5 Nd5 Qf8 Rxf8 Bxf8|q4B2/6K1/8/3n4/2k5/8/6b1/1rb1Nn1R b - - 0 1
+racingKings|-|Nxc2 Rxc2 Kg3 Nxf2 Rxf2 Rc5 Kf4 Kb3 Rg5 Kc4 Rf5 Rb6 Kg5 Kb5 Bg2 Bb2 Qxa1 Bxa1 Nf4 Nb3 Rc2 Ka6 Rfxc5 Nxc5 Rxc5 Ka7 Rc8 Rb8 Rg8 Bg7|1r4R1/k5b1/8/6K1/5N2/8/6B1/8 w - - 5 1
+racingKings|-|Bd4 Kb3 Kg3 Kc4 Kf4 Kd5 Qh6 Qa4 Nxc2 Rb6 Qf6 Rd6 Rg8 Kc6 R1g7 Rb5 Nxc1 Nxf1 Na3 Ra5 Nc2 Nfe3 Ne1 Nf2 Ncd3 Nfg4 Nb2 Nxf6 Nxa4 Nxg8 Nc5 Rxc5 Bxc5 Kxc5 Nf3 Kc6 Ke5 Rd7 Rxg8 Kc7 Kf6 Rd8 Kg7 Kc8#|2kr2R1/6K1/8/8/8/4nN2/8/8 w - - 5 1
+racingKings|-|Bd4 Be4 Kg3 Nf3 Nxf3 Kb3 Nf4 Ne3 Kh4 Nxf1 Kg5 Qa6 Qh6 Kc4 Qf6 Rb7 Kh6 Rc7 Rg7 Rbb7 Be5 Rxg7 Rxg7 Kb5 Rc7 Rxc7 Bxc7 Qc8 Kg7 Bc6 Qd8 Ka6 Kf8#|2qQ1K2/2B5/k1b5/8/5N2/5N2/8/2b2n2 b - - 6 1
+racingKings|-|Bd4 Kb3 Bxb2 Kc4 Rg5 Qxb2 Qa8 Ne4 Ra5 Ndf2 Nxc2 Qxc2 Bg2 Qxe2 Bxe4 Qxe4 Kg3 Nd3 Kh3 Rb5 Ra6 Ne5 Qf8 Rc5 Qb8 Be3 Rg5 Rb5 Rxe5 Rxb8 Rg5 Rb5|8/8/R7/1r4R1/2k1q3/4b2K/8/8 w - - 2 1
+racingKings|-|Kg3 Nxf2 Rxf2 Kb3 Kf4 Kc4 Ke5 Qa6 Rf6 Kb5 Nxc2 Nxf1 Re6 Rxc2 Kf6 Rxe2 Ke7 Qc8 Qf3 Rh2 Qf8 Rh8 Qxc8 Rxc8 Kf7 Rb4 Re8 Rh4 Kf8#|2r1RK2/8/8/1k6/7r/8/8/2b2nR1 b - - 5 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Kf4 Kc4 Qh6 Qa6 Rg6 Bxg6 Rxg6 Rb6 Bxb6 Kb5 Bd4 Bb2 Bxb2 Nxf1 Rxa6 Rxb2 Ke5 Rd2 Qxd2 Nxd2 Rd6 Ne4 Kxe4 Kc5 Ke5 Nb2 Ke6 Nc4 Ke7 Nxd6 Kd8#|3K4/8/3n4/2k5/8/8/4N3/4N3 b - - 1 1
+racingKings|-|Nxc2 Rxc2 Kg3 Nxf2 Rxf2 Rc5 Kf4 Kb3 Rg5 Kc4 Rf5 Rb6 Bg2 Bb2 Qxa1 Bxa1 Kg5 Kb5 Nf4 Nb3 Nd5 Rd6 Nf6 Kb6 Re2 Kc7 Re8 Rd8 Rfe5 Kc8#|2krR3/8/5N2/2r1R1K1/8/1n6/6B1/b7 w - - 14 1
+racingKings|-|Kg3 Kb3 Kf4 Qa5 Nxc2 Rxc2 Bd4 Bb2 Bxb2 Rbxb2 Rg5 Kb4 Re5 Qb5 Rg6 Nxf1 Kg5 Ka5 Qxf1 Nc3 Nd4 Rd2 Nxb5 Rxb5 Kh6 Na4 Kh7 Rd8 Rg8 Ka6 Kh8#|3r2RK/8/k7/1r2R3/n7/8/8/5Q2 b - - 7 1
+racingKings|-|Kg3 Kb3 Kf4 Kc4 Ke5 Qa6 Bd4 Be4 Bxb2 Rxb2 Nd3 Bxd3 Nd4 Bxf1 Rg6 Qa7 Rd6 Kc5 Rg7 Qc7 Rd7 Qxd7 Rxd7 Rb6 Nf5 Nf2 Qa8 Nde4 Nd6 Bc4 Nxc4 Kxc4 Rd5 Be3 Qd8 Rc6 Qd7 Bg5 Qe6 Bh4 Kf5 Ng4 Kg6 Rc7 Qd7 Ng5 Kg7 Rc8 Qd8 Nf6 Kh8#|2rQ3K/8/5n2/3R2n1/2k4b/8/8/8 b - - 19 1
+racingKings|-|Bd4 Be4 Kg3 Kb3 Kf4 Kc4 Qh6 Qa6 Rg6 Qxg6 Rxg6 Bxg6 Qxg6 Kd5 Bxb2 Bxb2 Kg5 Be5 Nf3 Bd6 Nfd4 Rb7 Kf6 Kc5 Bg2 Kb6 Nb5 Rb8 Kg7 Ne3 Bh1 Nd5 Bxd5 Nc4 Qf7 Ne5 Qg8 Ng6 Nec3|1r4Q1/6K1/1k1b2n1/1N1B4/8/2N5/8/8 b - - 6 1
+racingKings|-|Bd4 Kb3 Kg3 Kc4 Kf4 Kd5 Qh6 Qa4 Rg8 Rb6 Qf6 Bh7 Kg5 Re6 Kh6 Qd7 Bh3 Bxg8 Rxg8 Ba3 Ng3 Kc6 Bxe6 Rb8 Rxb8 Kc7 Ba7 Qa4 Kg7 Qxa7 Qf8 Qxb8 Kg8#|1q3QK1/2k5/4B3/8/8/b5N1/3n4/3nN3 b - - 1 1
+racingKings|-|Kg3 Ka3 Kf4 Rb5 Nd4 Ra5 Qh6 Bb2 Nef3 Nxf3 Nxf3 Nxf2 Rxf2 Kb3 Qd6 Rd1 Qc7 Bd4 Rxc2 Bxg1 Nxg1 Qc3 Rg2 Kb4 Rg6 Rc5 Qa7 Qa3 Qe7 Ka5 Qf6 Rcd5 Bg2 Rc5 Nf3 Kb5 Ne5 Rc7 Kg5 Qc5 Rg7 Rd6 Kg6 Kb6 Kh7 Ka7 Qf8 Rd8 Qxd8 Qe7 Kh8#|3Q3K/k1r1q1R1/8/4N3/8/8/6B1/8 b - - 2 1
+racingKings|-|Kg3 Kb3 Kf4 Kc4 Ke5 Qa6 Nxc2 Kb5 Rg6 Nxf2 Rd6 Nde4 Ke6 Qb7 Bg2|8/1q6/3RK3/1k6/4n3/8/1rN1NnB1/1rb3RQ b - - 5 1
+racingKings|-|Bd4 Kb3 Kg3 Kc4 Rh2 Be4 Qxe4 Nb3 Kf3 Be3 Rg8 Bxd4 Kg4 Nc3 Kg5 Rxe1 Kg6 Qa7 Rh7 Qc7 Rf7 Nxe4 Kh7 Rxf1 Nxd4 Nxd4 Kh8#|6RK/2q2R2/8/8/2knn3/8/1r6/5r2 b - - 1 1
+racingKings|-|Bd4 Kb3 Kg3 Kc4 Kf4 Kd5 Qh6 Qa4 Rg8 Rb6 Qf6 Bh7 Rh8 Re6 Rg7 Qd7 Kg5 Kd6 Kh6 Bf5 Bh3 Kc7 Ba7 Reb6 Bxf5 Rb8 Qa6 Ba3 Kh7 Bf8 Kg8 Kd8|1r1k1bKR/B2q2R1/Q7/5B2/8/8/3nN3/1r1nN3 w - - 7 1
+racingKings|-|Kg3 Kb3 Bd4 Kc4 Rh2 Nb3 Nxc2 Nxd4 Nxa1 Kc5 Nxd4 Kd6 Rh7 Bh6 Nab3|8/7R/3k3b/8/3N4/1N4K1/1r6/1r1n1BRQ b - - 4 1

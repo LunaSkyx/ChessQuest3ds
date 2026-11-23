@@ -1,0 +1,27 @@
+# offline game against the built-in engine (level 3, 3+2 clock): moves, premove, takeback, resign
+until event home timeout 20000
+cmd offline 3 180 2 1
+until loaded timeout 5000
+wait 800
+shot o_start
+dragsq e2 e4
+wait 150
+until myturn timeout 20000
+wait 500
+shot o_after1
+dragsq d2 d4
+wait 100
+dragsq g1 f3
+until myturn timeout 20000
+wait 500
+shot o_after2
+cmd menu
+wait 300
+tap 160 130
+wait 800
+shot o_takeback
+cmd resign
+until gameover timeout 5000
+wait 1500
+shot o_over
+quit

@@ -1,0 +1,4 @@
+# design preview: wait for the fade-in, take one screenshot of both screens
+wait 800
+shot demo
+quit

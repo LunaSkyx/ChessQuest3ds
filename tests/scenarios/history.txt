@@ -1,0 +1,30 @@
+# game history (read-only API call) + analysis board with cloud evaluation
+until online timeout 20000
+cmd goto history
+wait 3500
+shot hs_list
+tap 160 100
+wait 800
+shot hs_a0
+tap 300 60
+wait 200
+tap 300 60
+wait 200
+tap 300 60
+wait 200
+tap 300 60
+wait 200
+tap 300 60
+wait 200
+tap 300 60
+wait 200
+tap 300 60
+wait 200
+tap 300 60
+wait 200
+tap 300 60
+wait 200
+tap 300 60
+wait 2500
+shot hs_a10
+quit

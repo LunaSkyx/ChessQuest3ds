@@ -1,0 +1,5 @@
+shot br_boot
+until event home timeout 20000
+wait 500
+shot br_home
+quit

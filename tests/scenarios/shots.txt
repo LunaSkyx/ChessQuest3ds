@@ -1,0 +1,11 @@
+wait 300
+shot b_boot
+cmd goto login
+wait 500
+shot b_login
+cmd goto settings
+wait 400
+tap 288 142
+wait 300
+shot b_s1
+quit

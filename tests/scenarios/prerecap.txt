@@ -1,0 +1,16 @@
+# premove onto an own-occupied square (recapture): pawn g2 -> h3 where our knight stands
+until online timeout 20000
+until event home timeout 8000
+cmd aifen 1 600 0 1 standard 4k3/p7/8/8/8/7N/6P1/4K3 w - - 0 1
+until event game_start timeout 30000
+until loaded timeout 10000
+wait 600
+dragsq e1 d1
+wait 150
+dragsq g2 h3
+wait 100
+shot pr_queued
+wait 1500
+cmd resign
+until gameover timeout 20000
+quit
