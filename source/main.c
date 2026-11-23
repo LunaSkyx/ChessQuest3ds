@@ -48,6 +48,7 @@ static bool app_cmd(const char *name, const char *args) {
         g_api.net = -1; g_api.err_rc = args ? atoi(args) : 60; snprintf(g_api.err, sizeof g_api.err, "Network error: SSL peer certificate was not OK");
         return true;
     }
+    if (!strcmp(name, "updfake")) { snprintf(g_set.upd_latest, sizeof g_set.upd_latest, "%s", args ? args : ""); return true; }   // test: pretend a release exists
     if (!strcmp(name, "demoname")) { snprintf(g_api.user, sizeof g_api.user, "%s", args ? args : "Player"); return true; }   // promo video: show a neutral name
     if (!strcmp(name, "botmask")) { g_set.bots_beaten = args ? (unsigned)atoi(args) : 0; return true; }
     if (!strcmp(name, "botfen")) {                   // botfen IDX FEN...: ladder game from a position (test)
@@ -153,6 +154,7 @@ int main(void) {
         scn_tick();
         if (scn_quit_requested()) break;
         api_pump();
+        update_tick(dt);
         fics_pump();
         if (g_fics_raw[0] && g_fics.state == FICS_ONLINE) { fics_send("%s", g_fics_raw); g_fics_raw[0] = 0; }
         if (g_fics_pending_seek && g_fics.state == FICS_ONLINE) { g_fics_pending_seek = false; fics_seek(g_fics_seek_args[0], g_fics_seek_args[1], g_fics_seek_args[2] != 0, g_fics_seek_args[3]); }

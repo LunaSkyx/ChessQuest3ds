@@ -86,6 +86,9 @@ typedef struct {
     bool off_noclock;      // offline game without a clock
     int clock_min, clock_inc; bool clock_mode, clock_swap;   // chess clock for real boards (mode: false increment, true delay)
     unsigned bots_beaten;  // bit i set = bot ladder opponent i has been beaten
+    bool check_updates;    // ask GitHub once a day whether a newer release exists (silent on any failure)
+    int  upd_day;          // day number (unix time / 86400) of the last successful check
+    char upd_latest[16];   // newest release seen, "0.9.2" (empty = unknown)
     int  variant;
     int  color;            // 0 random, 1 white, 2 black
     char token[96];

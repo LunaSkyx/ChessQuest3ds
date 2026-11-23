@@ -7,6 +7,8 @@ that run on the console itself. Puzzles, learning tools, a game-review function 
 
 > **Unofficial.** This is a fan-made client. It is not made by, endorsed by or affiliated with Lichess, FICS or Nintendo.
 > Status: hobby project / beta. Developed with the Azahar emulator and tested on a 2DS XL.
+>
+> **Built with AI assistance.** Most of the code was written by AI coding assistants (Claude Code and Antigravity). The author directed the project, chose the features and tested every build, in the emulator and on a real console.
 
 ## Features
 
@@ -37,6 +39,10 @@ that run on the console itself. Puzzles, learning tools, a game-review function 
 1. A 3DS with custom firmware.
 2. Download `ChessQuest3DS.cia` (or the `.3dsx`) from the Releases page. Install the CIA with FBI, or copy the `.3dsx` to `sdmc:/3ds/`.
 3. Check that the console clock (System Settings > Other Settings > Date & Time) is correct. Secure connections fail otherwise.
+
+### Update check
+
+Once a day the app asks the public GitHub API (`api.github.com`) whether a newer release of this project exists. If so, Home shows "Update available" with the address of the Releases page. Nothing is downloaded or installed, and any failure (no Wi-Fi, wrong clock, GitHub down) is ignored silently. GitHub sees your IP address and the user agent `ChessQuest3DS/<version>`, nothing else, and your Lichess token is never sent there. Switch it off in Settings > *Check for updates*.
 
 ### Lichess account (optional)
 

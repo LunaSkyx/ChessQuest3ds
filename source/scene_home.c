@@ -53,8 +53,12 @@ static void home_top(void) {
         else g_text(F_B16, x + 37, 140, C_TEXT3, AL_CENTER, "-");
         g_text(F_R11, x + 37, 153, C_TEXT3, AL_CENTER, SPEED_NAMES[i]);
     }
-    g_text(F_R13, 200, 196, C_TEXT3, AL_CENTER, "Lichess is free and open source.");
-    g_text(F_R11, 200, 214, C_TEXT3, AL_CENTER, "Chess Quest 3DS v" APP_VERSION "  -  unofficial Lichess client");
+    char newv[16];
+    if (update_available(newv, sizeof newv)) {       // a newer release is known (checked quietly in the background)
+        g_textf(F_B13, 200, 184, C_ORANGE, AL_CENTER, "Update available: v%s", newv);
+        g_text(F_R11, 200, 200, C_TEXT2, AL_CENTER, "github.com/LunaSkyx/ChessQuest3ds/releases");
+    } else g_text(F_R13, 200, 196, C_TEXT3, AL_CENTER, "Lichess is free and open source.");
+    g_text(F_R11, 200, 216, C_TEXT3, AL_CENTER, "Chess Quest 3DS v" APP_VERSION "  -  unofficial Lichess client");
 }
 
 static int my_turn_count(void) {
