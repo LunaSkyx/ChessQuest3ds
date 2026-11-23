@@ -1,0 +1,26 @@
+# build output
+build/
+logs/
+*.o
+*.d
+*.elf
+*.smdh
+*.3dsx
+*.cia
+*.cxi
+*.bnr
+# promo video (attach it to a release instead)
+*.mp4
+*.mkv
+# third-party binary tool, download it separately (see README)
+tools/bin/
+__pycache__/
+# never commit credentials or personal data
+token.txt
+settings.json
+*.token
+.env
+# editor / OS
+.vscode/
+.idea/
+Thumbs.db
